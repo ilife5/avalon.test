@@ -3,22 +3,37 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1">
+        <meta name="google" value="notranslate">
         <title>Runner</title>
+        <!--        <meta http-equiv="X-UA-Compatible" content="IE=8" /> -->
         <link type="text/css" rel="stylesheet" charset="utf-8" href="../src/mocha.css" />
-        <script src="../src/avalon_newparser.js"></script>
+        <script src="../src/avalon.modern.js"></script>
         <script src="../src/mocha.js"></script>
         <script src="../src/expect.js"></script>
+
+
     </head>
     <body>
         <div id="mocha"></div>
         <script>
             (function() {
                 mocha.ui('bdd')
-                mocha.setup({timeout: 100000})
+                mocha.setup({timeout: 100000});
                 require(["../tests/spec.js"], function() {
                     mocha.run()
                 })
             })()
+        </script>
+        <script type="expect">
+ var expect = function(a){
+    return {
+        to: {
+            be: function(b){
+                avalon.log(a === b)
+            }
+        }
+    }
+}
         </script>
     </body>
 </html>
