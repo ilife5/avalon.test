@@ -1,0 +1,192 @@
+info 2015-03-20 11:12:27 index.js:66 | Start server <192.168.113.155:9999>
+info 2015-03-20 11:12:50 labor.js:40 | New labor { laborId: 'd6NV2v2CnMV-ZlsVKu0g',
+  ua: 'chrome 41.0.2272.89 / macosx 10.10.2' }
+info 2015-03-20 11:21:48 index.js:66 | Start server <192.168.113.155:9999>
+info 2015-03-20 11:21:53 labor.js:40 | New labor { laborId: 'kPjRTCXLxsUAut5CM3wv',
+  ua: 'chrome 41.0.2272.89 / macosx 10.10.2' }
+info 2015-03-20 11:21:54 labor.js:128 | Labor destroys { laborId: 'kPjRTCXLxsUAut5CM3wv' }
+info 2015-03-20 11:21:55 labor.js:40 | New labor { laborId: 'HicgnlUJ8zBLbzaJM3ww',
+  ua: 'chrome 41.0.2272.89 / macosx 10.10.2' }
+info 2015-03-20 11:21:55 labor.js:128 | Labor destroys { laborId: 'HicgnlUJ8zBLbzaJM3ww' }
+info 2015-03-20 11:21:55 labor.js:40 | New labor { laborId: 'CT2BIjU3zArNv9DPM3wx',
+  ua: 'chrome 41.0.2272.89 / macosx 10.10.2' }
+info 2015-03-20 11:24:16 order.js:67 | New order { orderId: 'puGz9Rmtk16cXHg3M3wy',
+  config: 
+   { catch: true,
+     charset: 'utf-8',
+     timeout: 5,
+     clientHost: '192.168.113.155',
+     clientPort: 9998,
+     runner: 'tests/runner.html',
+     repo: 'https://github.com/RubyLouvre/avalon.test.git',
+     browsers: [ 'chrome' ] } }
+info 2015-03-20 11:24:32 order.js:218 | Order destroys { orderId: 'puGz9Rmtk16cXHg3M3wy',
+  duration: 15467,
+  labors: 
+   { chrome: 
+      { ua: 'chrome 41.0.2272.89 / macosx 10.10.2',
+        failures: [],
+        stats: undefined,
+        customLogs: [] } },
+  logs: { info: [], warn: [], error: [] } }
+info 2015-03-20 11:24:35 order.js:67 | New order { orderId: '4vLMKoGHB9ZY5z-VM3wz',
+  config: 
+   { catch: true,
+     charset: 'utf-8',
+     timeout: 5,
+     clientHost: '192.168.113.155',
+     clientPort: 9998,
+     runner: 'tests/runner.html',
+     repo: 'https://github.com/RubyLouvre/avalon.test.git',
+     browsers: [ 'chrome' ] } }
+info 2015-03-20 11:24:53 labor.js:128 | Labor destroys { laborId: 'CT2BIjU3zArNv9DPM3wx' }
+info 2015-03-20 11:24:53 labor.js:40 | New labor { laborId: 'opcYRxndQiH_N-RNM3w0',
+  ua: 'chrome 41.0.2272.89 / macosx 10.10.2' }
+info 2015-03-20 11:25:03 order.js:67 | New order { orderId: 'tNEbaw4wPY9piS-vM3w1',
+  config: 
+   { catch: true,
+     charset: 'utf-8',
+     timeout: 5,
+     clientHost: '192.168.113.155',
+     clientPort: 9998,
+     runner: 'tests/runner.html',
+     repo: 'https://github.com/RubyLouvre/avalon.test.git',
+     browsers: [ 'chrome' ] } }
+warn 2015-03-20 11:25:14 order.js:157 | Proxy response error { path: '/avalon/src/jQuery/jquery-1.11.2.js', status: 404 }
+info 2015-03-20 11:26:02 order.js:218 | Order destroys { orderId: '4vLMKoGHB9ZY5z-VM3wz',
+  duration: 87160,
+  labors: 
+   { chrome: 
+      { ua: 'chrome 41.0.2272.89 / macosx 10.10.2',
+        failures: [],
+        stats: undefined,
+        customLogs: 
+         [ [ 'debug: 正准备加载 http://192.168.113.155:9999/tests/spec.js' ],
+           [ 'debug: 已成功加载 http://192.168.113.155:9999/tests/spec.js' ],
+           [ 'debug: 正准备加载 http://192.168.113.155:9999/src/mmRequest.js' ],
+           [ 'debug: 加载 http://192.168.113.155:9999/src/mmRequest.js 失败true false' ] ] } },
+  logs: { info: [], warn: [], error: [] } }
+warn 2015-03-20 11:26:54 order.js:157 | Proxy response error { path: '/avalon/src/jQuery/backbone.js', status: 404 }
+warn 2015-03-20 11:26:54 order.js:157 | Proxy response error { path: '/avalon/src/jQuery/jquery.placeholder.js',
+  status: 404 }
+warn 2015-03-20 11:28:34 order.js:157 | Proxy response error { path: '/avalon/src/jQuery/aaa.js', status: 404 }
+warn 2015-03-20 11:28:34 order.js:157 | Proxy response error { path: '/avalon/src/jQuery/aaa.txt', status: 404 }
+warn 2015-03-20 11:28:34 order.js:157 | Proxy response error { path: '/avalon/src/jQuery/eee.css', status: 404 }
+warn 2015-03-20 11:28:34 order.js:157 | Proxy response error { path: '/avalon/src/loader/ccc.js', status: 404 }
+warn 2015-03-20 11:28:34 order.js:157 | Proxy response error { path: '/avalon/src/loader/ddd.js', status: 404 }
+warn 2015-03-20 11:28:34 order.js:157 | Proxy response error { path: '/avalon/src/cat/main.js', status: 404 }
+warn 2015-03-20 11:28:34 order.js:157 | Proxy response error { path: '/avalon/src/loader/old/aaa.js', status: 404 }
+warn 2015-03-20 11:28:34 order.js:157 | Proxy response error { path: '/avalon/src/loader/new/aaa.js', status: 404 }
+warn 2015-03-20 11:28:34 order.js:157 | Proxy response error { path: '/avalon/src/loader/eee.js', status: 404 }
+info 2015-03-20 11:28:45 order.js:218 | Order destroys { orderId: 'tNEbaw4wPY9piS-vM3w1',
+  duration: 222034,
+  labors: 
+   { chrome: 
+      { ua: 'chrome 41.0.2272.89 / macosx 10.10.2',
+        failures: 
+         [ { parent: '加载器',
+             title: '测试baseUrl, paths, shim',
+             message: 'timeout of 100000ms exceeded' },
+           { parent: '加载器',
+             title: '测试加载拥有AMD结构的流行库',
+             message: 'timeout of 100000ms exceeded' },
+           { parent: '加载器',
+             title: '测试text,css插件',
+             message: 'Uncaught Error: http://192.168.113.155:9999/avalon/src/jQuery/aaa.txt 对应资源不存在或没有开启 CORS (http://192.168.113.155:9999/src/avalon.modern.js:351)' },
+           { parent: '加载器',
+             title: '测试baseUrl, packages',
+             message: 'Uncaught Error: expected 0 to equal 1 (http://192.168.113.155:9999/src/expect.js:129)' },
+           { parent: '加载器',
+             title: '测试map',
+             message: 'Uncaught Error: expected 0 to equal 1 (http://192.168.113.155:9999/src/expect.js:129)' },
+           { parent: 'shortcircuit',
+             title: 'async',
+             message: 'Uncaught Error: expected 0 to equal 1 (http://192.168.113.155:9999/src/expect.js:129)' } ],
+        stats: 
+         { suites: '78',
+           tests: '92',
+           passes: '86',
+           pending: 0,
+           failures: '6',
+           duration: '211442',
+           coverage: 
+            { sloc: 5588,
+              hits: 2886,
+              misses: 2702,
+              coverage: 51.64638511095204 } },
+        customLogs: 
+         [ [ 'debug: 正准备加载 http://192.168.113.155:9999/tests/spec.js' ],
+           [ 'debug: 已成功加载 http://192.168.113.155:9999/tests/spec.js' ],
+           [ 'debug: 正准备加载 http://192.168.113.155:9999/src/mmRequest.js' ],
+           [ 'debug: 正准备加载 http://192.168.113.155:9999/src/mmPromise.js' ],
+           [ 'debug: 已成功加载 http://192.168.113.155:9999/src/mmRequest.js' ],
+           [ 'debug: 已成功加载 http://192.168.113.155:9999/src/mmPromise.js' ],
+           [ 'debug: 正准备加载 http://192.168.113.155:9999/avalon/src/jQuery/jquery-1.11.2.js' ],
+           [ 'debug: 加载 http://192.168.113.155:9999/avalon/src/jQuery/jquery-1.11.2.js 失败true false' ],
+           [ 'debug: 正准备加载 http://192.168.113.155:9999/avalon/src/jQuery/backbone.js' ],
+           [ 'debug: 正准备加载 http://192.168.113.155:9999/avalon/src/jQuery/jquery.placeholder.js' ],
+           [ 'debug: 加载 http://192.168.113.155:9999/avalon/src/jQuery/backbone.js 失败true false' ],
+           [ 'debug: 加载 http://192.168.113.155:9999/avalon/src/jQuery/jquery.placeholder.js 失败true false' ],
+           [ 'debug: 正准备加载 http://192.168.113.155:9999/avalon/src/jQuery/aaa.js' ],
+           [ 'debug: 正准备加载 http://192.168.113.155:9999/avalon/src/jQuery/aaa.txt' ],
+           [ 'debug: 已成功加载 http://192.168.113.155:9999/avalon/src/jQuery/eee.css' ],
+           [ 'debug: 加载 http://192.168.113.155:9999/avalon/src/jQuery/aaa.js 失败true false' ],
+           [ 'debug: 正准备加载 http://192.168.113.155:9999/avalon/src/loader/ccc.js' ],
+           [ 'debug: 正准备加载 http://192.168.113.155:9999/avalon/src/loader/ddd.js' ],
+           [ 'debug: 正准备加载 http://192.168.113.155:9999/avalon/src/cat/main.js' ],
+           [ 'debug: 加载 http://192.168.113.155:9999/avalon/src/loader/ccc.js 失败true false' ],
+           [ 'debug: 加载 http://192.168.113.155:9999/avalon/src/loader/ddd.js 失败true false' ],
+           [ 'debug: 加载 http://192.168.113.155:9999/avalon/src/cat/main.js 失败true false' ],
+           [ 'debug: 正准备加载 http://192.168.113.155:9999/avalon/src/loader/old/aaa.js' ],
+           [ 'debug: 正准备加载 http://192.168.113.155:9999/avalon/src/loader/new/aaa.js' ],
+           [ 'debug: 正准备加载 http://192.168.113.155:9999/avalon/src/loader/eee.js' ],
+           [ 'debug: 加载 http://192.168.113.155:9999/avalon/src/loader/old/aaa.js 失败true false' ],
+           [ 'debug: 加载 http://192.168.113.155:9999/avalon/src/loader/new/aaa.js 失败true false' ],
+           [ 'debug: 加载 http://192.168.113.155:9999/avalon/src/loader/eee.js 失败true false' ],
+           [ 'warning: observableArray$model 已经存在于avalon.vmodels中' ],
+           [ 'warning: ms-repeat-skip 已经存在于avalon.vmodels中' ],
+           [ 'warning: getEachProxyBUG1 已经存在于avalon.vmodels中' ],
+           [ 'warning: getEachProxyBUG2 已经存在于avalon.vmodels中' ],
+           [ 'warning:first.array对应类型不正确' ],
+           [ 'warning:first.object对应类型不正确' ],
+           [ 'warning: overrideEmptyObject 已经存在于avalon.vmodels中' ],
+           [ 'warning:first.array对应类型不正确' ],
+           [ 'warning:first.object对应类型不正确' ],
+           [ 'warning: $remove 已经存在于avalon.vmodels中' ],
+           [ 'warning: ms-repeat 已经存在于avalon.vmodels中' ],
+           [ 'warning: html-filter 已经存在于avalon.vmodels中' ],
+           [ 'warning: lowercase 已经存在于avalon.vmodels中' ],
+           [ 'warning: html-filter2 已经存在于avalon.vmodels中' ],
+           [ 'warning: nest-object 已经存在于avalon.vmodels中' ],
+           [ 'warning: repeaton 已经存在于avalon.vmodels中' ],
+           [ 'warning: repeatclear 已经存在于avalon.vmodels中' ] ] } },
+  logs: 
+   { info: [],
+     warn: 
+      [ [ 'Proxy response error',
+          { path: '/avalon/src/jQuery/jquery-1.11.2.js', status: 404 } ],
+        [ 'Proxy response error',
+          { path: '/avalon/src/jQuery/backbone.js', status: 404 } ],
+        [ 'Proxy response error',
+          { path: '/avalon/src/jQuery/jquery.placeholder.js',
+            status: 404 } ],
+        [ 'Proxy response error',
+          { path: '/avalon/src/jQuery/aaa.js', status: 404 } ],
+        [ 'Proxy response error',
+          { path: '/avalon/src/jQuery/aaa.txt', status: 404 } ],
+        [ 'Proxy response error',
+          { path: '/avalon/src/jQuery/eee.css', status: 404 } ],
+        [ 'Proxy response error',
+          { path: '/avalon/src/loader/ccc.js', status: 404 } ],
+        [ 'Proxy response error',
+          { path: '/avalon/src/loader/ddd.js', status: 404 } ],
+        [ 'Proxy response error',
+          { path: '/avalon/src/cat/main.js', status: 404 } ],
+        [ 'Proxy response error',
+          { path: '/avalon/src/loader/old/aaa.js', status: 404 } ],
+        [ 'Proxy response error',
+          { path: '/avalon/src/loader/new/aaa.js', status: 404 } ],
+        [ 'Proxy response error',
+          { path: '/avalon/src/loader/eee.js', status: 404 } ] ],
+     error: [] } }
+info 2015-03-20 11:31:33 labor.js:128 | Labor destroys { laborId: 'opcYRxndQiH_N-RNM3w0' }
